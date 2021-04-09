@@ -9,6 +9,8 @@ h2 {
     font-weight: 500;
     font-size: 18px;
     font-family: poppins, sans-serif;
+    display: block;
+    font-weight: bold;
 }
 
 p {
@@ -25,20 +27,29 @@ div {
 .container {
     border: 2px solid black;
     width: 500px;
-    margin: 0 auto;
+    margin: 10px auto;
+}
+
+.colour-container{
+    margin: 10px;
 }
 
 /*for the colour name*/
 .colour-label {
-
+    text-align:center;
 }
 
 .colour-hex {
-
+    text-align:center;
 }
 
 .purple-panel {
-
+    background-color: purple;
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
 }
 
 .mintgreen-panel {
