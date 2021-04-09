@@ -91,7 +91,7 @@ div {
 }
 
 /*holds each font type section*/
-.font-panel {
+.font-panel-poppins {
     display: inline-block;
     width: 40%;
 }
@@ -114,6 +114,11 @@ div {
 }
 
 /*NUNITO SANS font*/
+.font-panel-nunitosans {
+    display: inline-block;
+    width: 40%;
+}
+
 .font-name-nunitosans {
 
 }
@@ -131,6 +136,11 @@ div {
 }
 
 /*SOURCE CODE PRO font*/
+.font-panel-sourcedodepro {
+    display: inline-block;
+    width: 40%;
+}
+
 .font-name-sourcecodepro {
 
 }
