@@ -52,8 +52,13 @@ div {
     min-height: 100px;
 }
 
-.mintgreen-panel {
-
+.mediumseagreen-panel {
+    background-color: mediumseagreen;
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
 }
 
 .beige-panel {
