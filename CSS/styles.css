@@ -61,6 +61,24 @@ div {
     min-height: 100px;
 }
 
+.salmon-panel {
+    background-color: salmon;
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.mauve-panel {
+    background-color: #b99095;
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
 .beige-panel {
     background-color: beige;
     display: inline-block;
@@ -69,16 +87,6 @@ div {
     margin: 20px auto;
     min-height: 100px;
 }
-
-.lightblue-panel {
-    background-color: lightblue;
-    display: inline-block;
-    width: 32%;
-    text-align: center;
-    margin: 20px auto;
-    min-height: 100px;
-}
-
 
 /*holds each font type section*/
 .font-panel {
