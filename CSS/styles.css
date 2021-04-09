@@ -43,8 +43,8 @@ div {
     text-align:center;
 }
 
-.purple-panel {
-    background-color: purple;
+.tealgreen-panel {
+    background-color: #3d5b59;
     display: inline-block;
     width: 32%;
     text-align: center;
@@ -52,8 +52,8 @@ div {
     min-height: 100px;
 }
 
-.magicmint-panel {
-    background-color: aaf0d1;
+.mint-panel {
+    background-color: #b5e5cf;
     display: inline-block;
     width: 32%;
     text-align: center;
