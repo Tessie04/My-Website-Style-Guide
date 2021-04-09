@@ -17,13 +17,38 @@
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
   }
 
+#page-name {
+    text-align: center;
+}
+
+#colour-title {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 0;
+}
+
+#fonts-title {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#text-title {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+}
+
 h1 {
     font-weight: 700 bold;
     font-size: 75px;
     font-family: "Euphoria Script", cursive;
-    text-align: center;
     display: block;
-    margin: 20px;
     
 }
 
@@ -33,15 +58,13 @@ h2 {
     font-family: "Nunito sans", sans-serif;
     display: block;
     font-weight: bold;
-    text-align: center;
-    margin: 20px;
 
 }
 
 p {
     font-weight: 400 regular;
     font-size: 15px;
-    font-family: poppins, sans-serif;
+    font-family: Poppins, sans-serif;
 }
 
 div {
@@ -57,6 +80,7 @@ div {
 
 .colour-container{
     margin: 5px;
+    box-sizing: border-box;
 }
 
 /*for the colour name*/
@@ -71,7 +95,7 @@ div {
 .tealgreen-panel {
     background-color: #3d5b59;
     display: inline-block;
-    width: 32%;
+    width: 33%;
     text-align: center;
     margin: 20px auto;
     min-height: 100px;
@@ -80,7 +104,7 @@ div {
 .mint-panel {
     background-color: #b5e5cf;
     display: inline-block;
-    width: 32%;
+    width: 33%;
     text-align: center;
     margin: 20px auto;
     min-height: 100px;
@@ -98,7 +122,7 @@ div {
 .mauve-panel {
     background-color: #b99095;
     display: inline-block;
-    width: 32%;
+    width: 33%;
     margin: 20px auto;
     min-height: 100px;
     text-align: center;
@@ -107,7 +131,7 @@ div {
 .beige-panel {
     background-color: beige;
     display: inline-block;
-    width: 32%;
+    width: 33%;
     margin: 20px auto;
     min-height: 100px;
     text-align: center;
@@ -123,6 +147,7 @@ div {
 .font-panel-poppins {
     display: inline-block;
     width: 45%;
+    font-size; 1.5em;
 }
 
 .font-name-poppins {
@@ -143,6 +168,7 @@ div {
 .font-italic-poppins {
     font-style: italic;
     font-family: poppins, sans-serif;
+    
 }
 
 /*NUNITO SANS font*/
@@ -180,11 +206,13 @@ div {
 .font-name-euphoriascript {
     text-decoration: underline;
     font-family: "Euphoria Script", sans-serif;
+    font-size: 1.5em;
 }
 
 .font-normal-euphoriascript {
     font-weight: normal;
     font-family: "Euphoria Script", cursive;
+
 }
 
 .font-bold-euphoriascript {
@@ -213,13 +241,13 @@ div {
     font-family: "Euphoria Script", cursive;
     font-size: 60px;
     font-weight: 700 bold;
-    margin-top: 14px;
-    margin-bottom: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .text-subheading {
     text-align: left;
-    font-family: "nunito sans", sans-serif;
+    font-family: "Nunito sans", sans-serif;
     font-weight: 500;
     font-size: 20px;
 }
@@ -228,7 +256,7 @@ div {
     text-align: left;
     font-weight: 400 regular;
     font-size: 14px;
-    font-family: poppins, sans-serif;
+    font-family: Poppins, sans-serif;
 }
 
 
