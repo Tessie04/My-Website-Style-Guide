@@ -146,7 +146,7 @@ div {
 /*POPPINS font*/
 .font-panel-poppins {
     display: inline-block;
-    width: 45%;
+    width: 50%;
     font-size; 1.5em;
 }
 
@@ -174,7 +174,7 @@ div {
 /*NUNITO SANS font*/
 .font-panel-nunitosans {
     display: inline-block;
-    width: 45%;
+    width: 49%;
 }
 
 .font-name-nunitosans {
@@ -200,29 +200,31 @@ div {
 /*SOURCE CODE PRO font*/
 .font-panel-euphoriascript {
     display: inline-block;
-    width: 45%;
+    width: 50%;
 }
 
 .font-name-euphoriascript {
     text-decoration: underline;
     font-family: "Euphoria Script", sans-serif;
-    font-size: 1.5em;
+    font-size: 1.4em;
 }
 
 .font-normal-euphoriascript {
     font-weight: normal;
     font-family: "Euphoria Script", cursive;
-
+    font-size: 1.4em;
 }
 
 .font-bold-euphoriascript {
     font-weight: bold;
     font-family: "Euphoria Script", cursive;
+    font-size: 1.4em;
 }
 
 .font-italic-euphoriascript {
     font-style: italic;
     font-family: "Euphoria Script", cursive;
+    font-size: 1.4em;
 }
 
 
