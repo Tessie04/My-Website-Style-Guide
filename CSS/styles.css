@@ -91,6 +91,11 @@ div {
 }
 
 /*holds each font type section*/
+
+.font-container {
+    margin: 10px;
+}
+
 .font-panel-poppins {
     display: inline-block;
     width: 40%;
@@ -160,7 +165,7 @@ div {
 
 /*holds all the text types minus the heading */
 .text-container {
-
+    margin: 10px;
 }
 
 /*holds each text type chunk*/
