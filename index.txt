@@ -11,9 +11,25 @@
         <h1>My Website Style Guide</h1>
     </header>
 
-    <div>
-        <h2>Colours</h2>
-    </div>
+    <h2>Colours</h2>
+        <div class = "Colour Container">
+            <div class="purple-panel">
+                <p class="colour-label">Purple</p>
+                <p class="colour-hex">#800080</p>
+            </div>
+            <div class="mintgreen-panel">
+                <p class=colour-label>Mint Green</p>
+                <p class="colour-hex">#4fe0b0</p>
+            </div>
+            <div class="beige-panel">
+                <p class="colour-label">Beige</p>
+                <p class="colour-hex">#efd9ca</p>
+            </div>
+            <div class="lightblue-panel">
+                <p class="colour-label">Light Blue</p>
+                <p class="colour-hex">#add8e6</p>
+            </div>
+        </div>
 
     <div>
         <h2>Fonts</h2>
