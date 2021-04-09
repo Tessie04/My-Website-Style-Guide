@@ -52,8 +52,8 @@ div {
     min-height: 100px;
 }
 
-.mediumseagreen-panel {
-    background-color: mediumseagreen;
+.magicmint-panel {
+    background-color: aaf0d1;
     display: inline-block;
     width: 32%;
     text-align: center;
@@ -62,11 +62,21 @@ div {
 }
 
 .beige-panel {
-
+    background-color: beige;
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
 }
 
 .lightblue-panel {
-
+    background-color: lightblue;
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
 }
 
 
