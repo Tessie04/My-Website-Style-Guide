@@ -11,8 +11,8 @@
         <h1>My Website Style Guide</h1>
     </header>
 
-    <h2>Colours</h2>
-        <div class = "colour-container">
+        <div class = "container">
+            <h2>Colours</h2>
             <div class="purple-panel">
                 <p class="colour-label">Purple</p>
                 <p class="colour-hex">#800080</p>
@@ -31,19 +31,59 @@
             </div>
         </div>
 
-    <div class="fonts-container">
+    <div class="container">
         <h2>Fonts</h2>
         <div class="font-panel">
             <p class="font-name">Poppins</p>
-            <p class="font-normal">The quick brown fox jumps ovr the lazy dog</p>
-            <p class="font-bold">The quick brown fox jumps ovr the lazy dog</p>
-            <p class="font-italic">The quick brown fox jumps ovr the lazy dog</p>
+            <p class="font-normal">The quick brown fox jumps over the lazy dog</p>
+            <p class="font-bold">The quick brown fox jumps over the lazy dog</p>
+            <p class="font-italic">The quick brown fox jumps over the lazy dog</p>
         </div>
+        <div class="font-panel">
+            <p class="font-name">Nunito Sans</p>
+            <p class="font-normal">The quick brown fox jumps over the lazy dog</p>
+            <p class="font-bold">The quick brown fox jumps over the lazy dog</p>
+            <p class="font-italic">The quick brown fox jumps over the lazy dog</p>
+        </div>
+        <div class="font-panel">
+            <p class="font-name">Source Code Pro</p>
+            <p class="font-normal">The quick brown fox jumps over the lazy dog</p>
+            <p class="font-bold">The quick brown fox jumps over the lazy dog</p>
+            <p class="font-italic">The quick brown fox jumps over the lazy dog</p>
     </div>
 
-    <div class="textstyles-container">
+    <div class="container">
         <h2>Text Styles</h2>
-       
+        <div class="text-container">
+            <div class="text-panel">
+                <h1>Main page heading</h1>
+                <ul>
+                    <li>Font-weight: 700 (bold)</li>
+                    <li>Font-size: 26px</li>
+                    <li>Font-family: Nunito Sans</li>
+                </ul>
+            </div>
+        
+            <div class="text-panel">
+                <h2>Subheading</h2>
+                <ul>
+                    <li>Font-weight: 500</li>
+                    <li>Font-size: 18px</li>
+                    <li>Font-family: Poppins</li>
+                </ul>
+            </div>
+        
+            <div class="text-panel">
+                <p>Paragraph text</p>
+                <ul>
+                    <li>Font-weight: 400 (regular)</li>
+                    <li>Font-size: 14px</li>
+                    <li>Font-family: Poppins</li>
+                </ul>
+            </div>
+        </div>    
+
+        </div>
     </div>
 
 </body>

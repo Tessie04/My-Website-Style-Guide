@@ -10,11 +10,12 @@ p {
 
 }
 
-.colour-container {
+/*holds and entire segment*/
+.container {
 
 }
 
-
+/*for the colour name*/
 .colour-label {
 
 }
@@ -39,5 +40,36 @@ p {
 
 }
 
+
+/*holds each font type section*/
+.font-panel {
+
+}
+
+.font-name {
+
+}
+
+.font-normal {
+
+}
+
+.font-bold {
+
+}
+
+.font-italic {
+
+}
+
+/*holds all the text types minus the heading */
+.text-container {
+
+}
+
+/*holds each text type chunk*/
+.text-panel {
+
+}
 
 
