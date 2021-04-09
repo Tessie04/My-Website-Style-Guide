@@ -103,7 +103,7 @@ div {
 
 /*POPPINS font*/
 .font-name-poppins {
-
+    text-decoration: underline;
 }
 
 .font-normal-poppins {
@@ -125,7 +125,7 @@ div {
 }
 
 .font-name-nunitosans {
-
+    text-decoration: underline;
 }
 
 .font-normal-nunitosans {
@@ -147,7 +147,7 @@ div {
 }
 
 .font-name-sourcecodepro {
-
+    text-decoration: underline;
 }
 
 .font-normal-sourcecodepro {
