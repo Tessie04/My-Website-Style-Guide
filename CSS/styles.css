@@ -13,6 +13,8 @@ h1 {
     font-size: 75px;
     font-family: "Euphoria Script", cursive;
     text-align: center;
+    display: block;
+    
 }
 
 h2 {
@@ -22,7 +24,7 @@ h2 {
     display: block;
     font-weight: bold;
     text-align: center;
-    margin: 28px;
+    
 
 }
 
@@ -198,13 +200,15 @@ div {
     font-family: "Euphoria Script", cursive;
     font-size: 60px;
     font-weight: 700 bold;
+    margin-top: 14px;
+    margin-bottom: 14px;
 }
 
 .text-subheading {
     text-align: left;
     font-family: "nunito sans", sans-serif;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .text-paragraph {
