@@ -12,7 +12,7 @@
     </header>
 
     <h2>Colours</h2>
-        <div class = "Colour Container">
+        <div class = "colour-container">
             <div class="purple-panel">
                 <p class="colour-label">Purple</p>
                 <p class="colour-hex">#800080</p>
@@ -33,16 +33,17 @@
 
     <div class="fonts-container">
         <h2>Fonts</h2>
-    </div>
-
-    <div class="textstyles-container">
-        <h2>Text Styles</h2>
         <div class="font-panel">
             <p class="font-name">Poppins</p>
             <p class="font-normal">The quick brown fox jumps ovr the lazy dog</p>
             <p class="font-bold">The quick brown fox jumps ovr the lazy dog</p>
             <p class="font-italic">The quick brown fox jumps ovr the lazy dog</p>
         </div>
+    </div>
+
+    <div class="textstyles-container">
+        <h2>Text Styles</h2>
+       
     </div>
 
 </body>
