@@ -146,8 +146,8 @@ div {
 /*POPPINS font*/
 .font-panel-poppins {
     display: inline-block;
-    width: 50%;
-    font-size; 1.5em;
+    width: 49%;
+    margin-left: 5px;
 }
 
 .font-name-poppins {
@@ -200,7 +200,8 @@ div {
 /*SOURCE CODE PRO font*/
 .font-panel-euphoriascript {
     display: inline-block;
-    width: 50%;
+    width: 49%;
+    margin-left: 5px;
 }
 
 .font-name-euphoriascript {
@@ -243,6 +244,7 @@ div {
     font-family: "Euphoria Script", cursive;
     font-size: 60px;
     font-weight: 700 bold;
+    margin-left: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -252,12 +254,14 @@ div {
     font-family: "Nunito sans", sans-serif;
     font-weight: 500;
     font-size: 20px;
+    margin-left: 5px;
 }
 
 .text-paragraph {
     text-align: left;
     font-weight: 400 regular;
     font-size: 14px;
+    margin-left: 5px;
     font-family: Poppins, sans-serif;
 }
 
