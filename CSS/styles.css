@@ -96,12 +96,12 @@ div {
     margin: 10px;
 }
 
+/*POPPINS font*/
 .font-panel-poppins {
     display: inline-block;
     width: 40%;
 }
 
-/*POPPINS font*/
 .font-name-poppins {
     text-decoration: underline;
 }
@@ -115,7 +115,7 @@ div {
 }
 
 .font-italic-poppins {
-    font-weight: italic;
+    font-style: italic;
 }
 
 /*NUNITO SANS font*/
@@ -129,15 +129,15 @@ div {
 }
 
 .font-normal-nunitosans {
-
+    font-weight: normal;
 }
 
 .font-bold-nunitosans {
-
+    font-weight: bold;
 }
 
 .font-italic-nunitosans {
-
+    font-style: italic;
 }
 
 /*SOURCE CODE PRO font*/
@@ -151,15 +151,15 @@ div {
 }
 
 .font-normal-sourcecodepro {
-
+    font-weight: normal;
 }
 
 .font-bold-sourcecodepro {
-
+font-weight: bold;
 }
 
 .font-italic-sourcecodepro {
-
+    font-style: italic;
 }
 
 
