@@ -18,16 +18,17 @@ h1 {
 h2 {
     font-weight: 500;
     font-size: 40px;
-    font-family: "Euphoria Script", cursive;
+    font-family: "nunito sans", sans-serif;
     display: block;
     font-weight: bold;
     text-align: center;
+    margin: 28px;
 
 }
 
 p {
     font-weight: 400 regular;
-    font-size: 14px;
+    font-size: 15px;
     font-family: poppins, sans-serif;
 }
 
@@ -39,11 +40,11 @@ div {
 .container {
     border: 2px solid black;
     width: 700px;
-    margin: 10px auto;
+    margin: 5px auto;
 }
 
 .colour-container{
-    margin: 10px;
+    margin: 5px;
 }
 
 /*for the colour name*/
@@ -103,7 +104,7 @@ div {
 /*holds each font type section*/
 
 .font-container {
-    margin: 10px;
+    margin: 5px;
 }
 
 /*POPPINS font*/
@@ -117,15 +118,18 @@ div {
 }
 
 .font-normal-poppins {
-    font-weight: normal
+    font-weight: normal;
+    font-family: poppins, sans-serif;
 }
 
 .font-bold-poppins {
     font-weight: bold;
+    font-family: poppins, sans-serif;
 }
 
 .font-italic-poppins {
     font-style: italic;
+    font-family: poppins, sans-serif;
 }
 
 /*NUNITO SANS font*/
@@ -140,14 +144,17 @@ div {
 
 .font-normal-nunitosans {
     font-weight: normal;
+    font-family: "nunito sans", sans-serif;
 }
 
 .font-bold-nunitosans {
     font-weight: bold;
+    font-family: "nunito sans", sans-serif;
 }
 
 .font-italic-nunitosans {
     font-style: italic;
+    font-family: "nunito sans", sans-serif;
 }
 
 /*SOURCE CODE PRO font*/
@@ -162,20 +169,23 @@ div {
 
 .font-normal-euphoriascript {
     font-weight: normal;
+    font-family: "Euphoria Script", cursive;
 }
 
 .font-bold-euphoriascript {
-font-weight: bold;
+    font-weight: bold;
+    font-family: "Euphoria Script", cursive;
 }
 
 .font-italic-euphoriascript {
     font-style: italic;
+    font-family: "Euphoria Script", cursive;
 }
 
 
 /*holds all the text types minus the heading */
 .text-container {
-    margin: 10px;
+    margin: 5px;
 }
 
 /*holds each text type chunk*/
@@ -188,8 +198,6 @@ font-weight: bold;
     font-family: "Euphoria Script", cursive;
     font-size: 45px;
     font-weight: 700 bold;
-
-    
 }
 
 .text-subheading {
