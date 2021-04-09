@@ -1,14 +1,24 @@
+/*imported font*/
+@font-face {
+    font-family: 'Euphoria Script';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/euphoriascript/v11/mFTpWb0X2bLb_cx6To2B8GpKoD5qlPxS.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
 h1 {
     font-weight: 700 bold;
-    font-size: 26px;
-    font-family: "Nunito Sans", sans-serif;
+    font-size: 75px;
+    font-family: "Euphoria Script", cursive;
     text-align: center;
 }
 
 h2 {
     font-weight: 500;
-    font-size: 18px;
-    font-family: poppins, sans-serif;
+    font-size: 40px;
+    font-family: "Euphoria Script", cursive;
     display: block;
     font-weight: bold;
     text-align: center;
@@ -141,24 +151,24 @@ div {
 }
 
 /*SOURCE CODE PRO font*/
-.font-panel-sourcecodepro {
+.font-panel-euphoriascript {
     display: inline-block;
     width: 45%;
 }
 
-.font-name-sourcecodepro {
+.font-name-euphoriascript {
     text-decoration: underline;
 }
 
-.font-normal-sourcecodepro {
+.font-normal-euphoriascript {
     font-weight: normal;
 }
 
-.font-bold-sourcecodepro {
+.font-bold-euphoriascript {
 font-weight: bold;
 }
 
-.font-italic-sourcecodepro {
+.font-italic-euphoriascript {
     font-style: italic;
 }
 
@@ -171,6 +181,29 @@ font-weight: bold;
 /*holds each text type chunk*/
 .text-panel {
 
+}
+
+.text-heading {
+    text-align: left;
+    font-family: "Euphoria Script", cursive;
+    font-size: 26px;
+    font-weight: 700 bold;
+
+    
+}
+
+.text-subheading {
+    text-align: left;
+    font-family: "nunito sans", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.text-paragraph {
+    text-align: left;
+    font-weight: 400 regular;
+    font-size: 14px;
+    font-family: poppins, sans-serif;
 }
 
 
