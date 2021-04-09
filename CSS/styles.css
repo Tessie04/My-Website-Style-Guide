@@ -11,6 +11,8 @@ h2 {
     font-family: poppins, sans-serif;
     display: block;
     font-weight: bold;
+    text-align: center;
+
 }
 
 p {
@@ -74,40 +76,77 @@ div {
     background-color: #b99095;
     display: inline-block;
     width: 32%;
-    text-align: center;
     margin: 20px auto;
     min-height: 100px;
+    text-align: center;
 }
 
 .beige-panel {
     background-color: beige;
     display: inline-block;
     width: 32%;
-    text-align: center;
     margin: 20px auto;
     min-height: 100px;
+    text-align: center;
 }
 
 /*holds each font type section*/
 .font-panel {
+    display: inline-block;
+    width: 40%;
+}
+
+/*POPPINS font*/
+.font-name-poppins {
 
 }
 
-.font-name {
+.font-normal-poppins {
+    font-weight: normal
+}
+
+.font-bold-poppins {
+    font-weight: bold;
+}
+
+.font-italic-poppins {
+    font-weight: italic;
+}
+
+/*NUNITO SANS font*/
+.font-name-nunitosans {
 
 }
 
-.font-normal {
+.font-normal-nunitosans {
 
 }
 
-.font-bold {
+.font-bold-nunitosans {
 
 }
 
-.font-italic {
+.font-italic-nunitosans {
 
 }
+
+/*SOURCE CODE PRO font*/
+.font-name-sourcecodepro {
+
+}
+
+.font-normal-sourcecodepro {
+
+}
+
+.font-bold-sourcecodepro {
+
+}
+
+.font-italic-sourcecodepro {
+
+}
+
 
 /*holds all the text types minus the heading */
 .text-container {
