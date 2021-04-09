@@ -28,7 +28,7 @@ div {
 /*holds and entire segment*/
 .container {
     border: 2px solid black;
-    width: 500px;
+    width: 700px;
     margin: 10px auto;
 }
 
@@ -136,7 +136,7 @@ div {
 }
 
 /*SOURCE CODE PRO font*/
-.font-panel-sourcedodepro {
+.font-panel-sourcecodepro {
     display: inline-block;
     width: 40%;
 }
